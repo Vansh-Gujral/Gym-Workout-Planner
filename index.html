@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM WORKOUT PLANNER</title>
+    <link rel="icon" href="https://tse2.mm.bing.net/th?id=OIP.4PGQXLmuAJwTa81MALENWQHaE8&pid=Api&P=0&h=180">
+  <link rel="stylesheet" href="style.css">
+  <script src="js.js"></script>
+</head>
+<body>
+    <header>
+        <section class="name" style="display: inline; background-color: brown; text-align: center;">
+        <h1>Gym Workout Planner</h1>
+    </section>
+        <div class="container">
+      
+          <nav>
+            <a href="about.html">About</a>
+            <a href="features.html">Features</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+      
+          <a href="signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </header>
+      
+          <!-- <div class="about">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.3milUs2t9GkImj5rFoV8YQHaEj&pid=Api&P=0&h=180" alt="About Gym Workout Planner">
+            <h1>About Gym Workout Planner</h1>
+            <p>Gym Workout Planner is a website that helps you create personalized workout plans and track your progress. With Gym Workout Planner, you can:</p>
+            <ul>
+              <li>Create a workout plan tailored to your individual fitness goals and needs</li>    
+              <li>Track your progress over time</li>
+              <li>Access a library of exercises with descriptions, instructions, and videos</li>
+              <li>Get nutrition advice and tips on how to fuel your workouts and recover properly</li>
+            </ul>
+            <a href="aboutGWP.HTML" class="btn btn-secondary">Learn More</a>
+          </div> -->
+      </header>
+      <section id="personalized-workout-plans">
+        <h2>Personalized Workout Plans</h2>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.QF6EublnX9kBeqzU6wQ_2wHaHa&pid=Api&P=0&h=180" alt="Personalized Workout Plans">
+        <p>Gym Workout Planner makes it easy to create personalized workout plans tailored to your individual fitness goals and needs. With Gym Workout Planner, you can:</p>
+        <ul>
+          <li>Choose from a library of exercises or create your own</li>
+          <li>Set the duration and intensity of your workouts</li>
+          <li>Track your progress over time and adjust your plan as needed</li>
+        </ul>
+        <a href="signup.html" class="btn btn-primary">Sign Up for a Free Trial</a>
+      </section>
+      <!DOCTYPE html>
+<html>
+<head>
+  
+  <style>
+
+    h1{
+        background-color: pink;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: pink;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    th {
+      background-color: purple;
+    }
+
+    tr:hover {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <section id="landing-page">
+    <h1>Workout Plans</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Level</th>
+          <th>Days/Week</th>
+          <th>Duration</th>
+          <th>Exercises</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+  </section>
+
+  <script>
+    // Add a row to the table for each workout plan
+    const workoutPlans = [
+      {
+        id: 1,
+        name: "Beginner Full-Body Workout",
+        level: "Beginner",
+        daysPerWeek: 3,
+        duration: 30,
+        exercises: [
+          "Squats",
+          "Push-ups",
+          "Pull-ups",
+          "Crunches",
+          "Lunges",
+          "Plank",
+        ],
+      },
+      {
+        id: 2,
+        name: "Intermediate Full-Body Workout",
+        level: "Intermediate",
+        daysPerWeek: 4,
+        duration: 45,
+        exercises: [
+          "Deadlifts",
+          "Bench press",
+          "Rows",
+          "Overhead press",
+          "Weighted squats",
+          "Weighted lunges",
+          "Bicep curls",
+          "Tricep extensions",
+        ],
+      },
+      {
+        id: 3,
+        name: "Advanced Full-Body Workout",
+        level: "Advanced",
+        daysPerWeek: 5,
+        duration: 60,
+        exercises: [
+          "Power cleans",
+          "Squats",
+          "Bench press",
+          "Rows",
+          "Overhead press",
+          "Weighted pull-ups",
+          "Weighted lunges",
+          "Bicep curls",
+          "Tricep extensions",
+          "Calf raises",
+        ],
+      },
+    ];
+
+    workoutPlans.forEach((workoutPlan) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${workoutPlan.name}</td>
+        <td>${workoutPlan.level}</td>
+        <td>${workoutPlan.daysPerWeek}</td>
+        <td>${workoutPlan.duration} minutes</td>
+        <td>${workoutPlan.exercises.join(", ")}</td>
+      `;
+      document.getElementById("table-body").appendChild(row);
+    });
+  </script>
+  <section id="exercise-library">
+    <h2>Exercise Library</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.z3HYPVpZKwaH-4OvrpNkEQHaF7&pid=Api&P=0&h=180" alt="Squats">
+        <h3>Squats</h3>
+        <p>Squats are a compound exercise that works the quads, hamstrings, and glutes.</p>
+        <a href="squats.html" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="col-md-4">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.-izra7THJfnqVtkCV3p8QgHaE8&pid=Api&P=0&h=180" alt="Push-ups">
+        <h3>Push-ups</h3>
+        <p>Push-ups are a compound exercise that works the chest, triceps, and shoulders.</p>
+        <a href="push.html" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="col-md-4">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.w4Id1YHm_y8CFecJdT0oHgHaFj&pid=Api&P=0&h=180" alt="Pull-ups">
+        <h3>Pull-ups</h3>
+        <p>Pull-ups are a compound exercise that works the back and biceps.</p>
+        <a href="pull.html" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="col-md-4">
+        <img src="https://tse1.explicit.bing.net/th?id=OIP.hjqAgVTZ2B-IAW0vG0M-3wHaJ3&pid=Api&P=0&h=180" alt="Lunges">
+        <h3>Lunges</h3>
+        <p>Lunges are a powerful exercise, allowing you to shape and strengthen almost every muscle in the lower body..</p>
+        <a href="lunges.html" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="col-md-4">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.8XDuwyLgkYfbkR0utUiK3QHaEK&pid=Api&P=0&h=180" alt=" overhead dumbbell presses">
+        <h3>Overhead dumbbell presses</h3>
+        <p>The overhead dumbbell press is an intricate series of moving parts.</p>
+        <a href="dumbbell.html" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="col-md-4">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.nVZ5b6X4kN_3SCgY5td0UQHaJ3&pid=Api&P=0&h=180" alt="Chin-ups">
+        <h3>Chin-ups</h3>
+        <p>Chin-ups are one of the best body-weight exercise to build strength in your arms, shoulders and core</p>
+        <a href="chinup.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </section>
+  <section id="workout-tracking">
+    <h2>Workout Tracking</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+            <th>Date</th>
+            <th>Workout</th>
+            <th>Sets</th>
+            <th>Reps</th>
+            <th>Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2023-08-05</td>
+          <td>Chest Workout</td>
+          <td>3</td>
+          <td>10</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2023-08-06</td>
+          <td>Back Workout</td>
+          <td>3</td>
+          <td>12</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>2023-08-07</td>
+          <td>Leg Workout</td>
+          <td>3</td>
+          <td>15</td>
+          <td>140</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="nutrition-advice">
+    <h2>Nutrition Advice</h2>
+  
+    <img src="https://tse3.mm.bing.net/th?id=OIP.WzsySg-R7uOOBjoKKDcH3AHaDw&pid=Api&P=0&h=180" alt="Healthy plate">
+    <p>Eating a healthy diet is essential for overall health and well-being, and it can also help you reach your fitness goals. Here are some nutrition tips to follow:</p>
+    <ul>
+      <li>Eat plenty of fruits and vegetables. Fruits and vegetables are packed with vitamins, minerals, and antioxidants, which are essential for good health. Aim to eat at least five servings of fruits and vegetables each day.</li>
+      <li>Choose whole grains over refined grains. Whole grains are a good source of fiber, which can help you feel full and satisfied after eating. Refined grains have been stripped of their fiber and nutrients, so they are not as healthy.</li>
+      <li>Choose lean protein sources. Lean protein sources, such as chicken, fish, beans, and tofu, are low in saturated fat and calories. They are also a good source of essential amino acids, which are needed for muscle growth and repair.</li>
+      <li>Limit unhealthy fats. Unhealthy fats, such as saturated and trans fats, can raise cholesterol levels and increase your risk of heart disease. Limit your intake of saturated and trans fats by choosing lean protein sources, low-fat dairy products, and healthy oils, such as olive oil and avocado oil.</li>
+      <li>Drink plenty of water. Water is essential for good health, and it can also help you feel full and satisfied. Aim to drink eight glasses of water each day.</li>
+    </ul>
+  </section>
+  <hr>
+  <center><footer>Copyright © 2023 Gym Workout Planner. | All Rights Reserved. | Kashish Bhatt </footer></center>
+</body>
+</html>
+

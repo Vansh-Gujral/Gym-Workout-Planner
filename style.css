@@ -1,0 +1,250 @@
+/* CSS */
+
+body{
+    background-color: pink;
+}
+.name header{
+    background-color: brown;
+    position: relative;
+    
+}
+header {
+    background-color: brown;
+    padding: 15px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    
+  }
+  
+  .logo {
+    float: left;
+   
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  nav a:hover {
+    color: wheat;
+  }
+  
+  .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  /* CSS */
+/* .about {
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+  }
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .about ul {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  
+  .about li {
+    margin-bottom: 5px;
+  }
+  
+  .about .btn {
+    margin-top: 15px;
+  } */
+  /* CSS */
+#personalized-workout-plans {
+    padding: 30px;
+    background-color: pink;
+  }
+  
+  #personalized-workout-plans h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #personalized-workout-plans img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+
+  }
+  
+  #personalized-workout-plans p {
+    margin-bottom: 30px;
+  }
+  
+  #personalized-workout-plans ul {
+    margin-bottom: 30px;
+  }
+  
+  #personalized-workout-plans li {
+    margin-bottom: 5px;
+  }
+  
+  #personalized-workout-plans .btn {
+    margin-top: 30px;
+  }
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #eee;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #ccc;
+  }
+  
+  @media screen and (max-width: 768px) {
+    table {
+      width: 100%;
+    }
+  
+    th, td {
+      font-size: 14px;
+    }
+  }
+  /* CSS */
+#exercise-library {
+    padding: 30px;
+    background-color: pink;
+  }
+  
+  #exercise-library h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #exercise-library .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #exercise-library .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  #exercise-library img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #exercise-library h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #exercise-library p {
+    margin-bottom: 15px;
+  }
+  
+  #exercise-library .btn {
+    margin-top: 15px;
+  }
+  /* CSS */
+#workout-tracking {
+    padding: 30px;
+    background-color: pink;
+  }
+  
+  #workout-tracking h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #workout-tracking table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #workout-tracking th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  #workout-tracking th {
+    background-color: purple;
+  }
+  
+  #workout-tracking tr:hover {
+    background-color: #ccc;
+  }
+  
+  #workout-tracking .btn {
+    margin-top: 15px;
+  }
+  /* CSS */
+#nutrition-advice {
+    padding: 30px;
+    background-color: pink;
+  }
+  
+  #nutrition-advice h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #nutrition-advice img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  #nutrition-advice p {
+    margin-bottom: 30px;
+  }
+  
+  #nutrition-advice ul {
+    margin-bottom: 30px;
+  }
+  
+  #nutrition-advice li {
+    margin-bottom: 5px;
+  }
+  
